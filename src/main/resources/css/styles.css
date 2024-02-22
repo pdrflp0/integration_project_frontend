@@ -1,0 +1,39 @@
+#panePrincipal {
+    -fx-background-color: #f0f0f0;
+}
+
+.label {
+    -fx-text-fill: #000000;
+}
+
+.combo-box .arrow-button {
+    -fx-background-color: transparent;
+}
+
+.combo-box .arrow-button .arrow {
+    -fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
+    -fx-background-insets: 0;
+    -fx-padding: 0.333333em 0.666667em 0.333333em 0.666667em;
+}
+
+.combo-box .text-field {
+    -fx-background-color: -fx-control-inner-background;
+    -fx-background-radius: 0;
+}
+
+.combo-box .arrow-button .arrow-button {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.combo-box .arrow-button .arrow-button .arrow {
+    -fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
+    -fx-background-insets: 0;
+    -fx-padding: 0;
+}
+
+.tree-view {
+    -fx-border-color: #000000;
+    -fx-border-width: 1;
+}
