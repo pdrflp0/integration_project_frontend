@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1f84c59e-0d12-4b9b-8322-5a89e5494758" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,31 +56,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Main.executor": "Run",
-    "Maven.integration_project_frontend [clean...].executor": "Run",
-    "Maven.integration_project_frontend [install:install-file...].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/dev/git/repos/integration_project_backend/target/integration_project_backend-1.0-SNAPSHOT.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/dev/git/repos/integration_project_frontend/src/main/java/br/eletra/Main.java",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.integration_project_frontend-1.0-SNAPSHOT.jar.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.integration_project_backend [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.integration_project_backend [dependency:purge-local-repository].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.integration_project_backend [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.integration_project_backend [versions:display-plugin-updates].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.integration_project_frontend [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.integration_project_frontend [install:install-file...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.integration_project_frontend [package].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/integration__project__frontend__02&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/git/repos/integration_project_backend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/dev/git/repos/integration_project_frontend/src/main/java/br/eletra/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\dev\git\repos\integration_project_frontend\src\main\resources\fxml" />
@@ -88,11 +97,14 @@
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn install:install-file -Dfile=C:\dev\git\repos\integration_project_backend\target\integration_project_backend-1.0-SNAPSHOT.jar -DgroupId=br.eletra -DartifactId=integration_project_backend -Dversion=1.0-SNAPSHOT -Dpackaging=jar " />
-      <command value="mvn clean package" />
       <command value="mvn clean install" />
+      <command value="mvn package" />
+      <command value="mvn dependency:purge-local-repository" />
+      <command value="mvn versions:display-plugin-updates" />
+      <command value="mvn clean package" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JAR Application.integration_project_frontend-1.0-SNAPSHOT.jar">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="br.eletra.frontend.Main" />
       <module name="integration_project_frontend" />
@@ -106,8 +118,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="integration_project_frontend-1.0-SNAPSHOT.jar" type="JarApplication" temporary="true">
+      <option name="JAR_PATH" value="$PROJECT_DIR$/target/integration_project_frontend-1.0-SNAPSHOT.jar" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JAR Application.integration_project_frontend-1.0-SNAPSHOT.jar" />
         <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -132,6 +149,15 @@
       <workItem from="1708567346005" duration="2659000" />
       <workItem from="1708612402840" duration="2641000" />
       <workItem from="1708640317400" duration="725000" />
+      <workItem from="1708646939509" duration="6771000" />
+      <workItem from="1708696026514" duration="3868000" />
+      <workItem from="1708950329073" duration="4578000" />
+      <workItem from="1708962280656" duration="30000" />
+      <workItem from="1709042205944" duration="2200000" />
+      <workItem from="1709072119900" duration="609000" />
+      <workItem from="1709128607070" duration="4835000" />
+      <workItem from="1709299681907" duration="1169000" />
+      <workItem from="1709300972258" duration="59000" />
     </task>
     <servers />
   </component>
