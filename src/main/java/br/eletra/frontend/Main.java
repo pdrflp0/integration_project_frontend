@@ -21,12 +21,11 @@ public class Main extends Application {
 
         File iconFile = new File(iconePath);
         if (iconFile.exists()) {
-            Image icon = new Image(iconFile.toURI().toString());  // Carregue a imagem do ícone
+            Image icon = new Image(iconFile.toURI().toString());
             primaryStage.getIcons().add(icon);
         }
 
         FXMLLoader loader = new FXMLLoader();
-        // Carregar o arquivo FXML
         loader.setLocation(getClass().getResource("/fxml/screen.fxml"));
         Parent root = loader.load();
 
