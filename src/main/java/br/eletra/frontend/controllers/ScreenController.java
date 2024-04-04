@@ -74,7 +74,7 @@ public class ScreenController implements Initializable {
     private void displayModels(String selectedLine) {
         try {
             LineEntity line = lineDAO.getLineByName(selectedLine);
-            if (line != null) {
+            {
                 List<CategoryEntity> categories = categoryDAO.getCategoriesByLine(line);
                 TreeItem<String> rootItem = new TreeItem<>(selectedLine);
 
@@ -88,8 +88,6 @@ public class ScreenController implements Initializable {
                 }
 
                 treeView.setRoot(rootItem);
-            } else {
-                System.out.println("Linha não encontrada: " + selectedLine);
             }
         } catch (Exception e) {
             e.printStackTrace();
