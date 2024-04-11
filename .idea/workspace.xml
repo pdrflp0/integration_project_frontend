@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f84c59e-0d12-4b9b-8322-5a89e5494758" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/controllers/ScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/controllers/ScreenController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../integration_project_backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../integration_project_backend/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +108,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\git\repos\integration_project_frontend\src\main\java\br\eletra\frontend\deploy" />
       <recent name="C:\dev\git\repos\integration_project_frontend\src\main\resources\fxml" />
       <recent name="C:\dev\git\repos\integration_project_frontend\src\main\resources\css" />
     </key>
@@ -219,6 +219,13 @@
       <workItem from="1711984044794" duration="1614000" />
       <workItem from="1712147937299" duration="138000" />
       <workItem from="1712235527258" duration="142000" />
+      <workItem from="1712240407586" duration="56000" />
+      <workItem from="1712244958521" duration="982000" />
+      <workItem from="1712588382785" duration="603000" />
+      <workItem from="1712673715762" duration="3931000" />
+      <workItem from="1712751056413" duration="2183000" />
+      <workItem from="1712759954929" duration="1033000" />
+      <workItem from="1712803082377" duration="569000" />
     </task>
     <servers />
   </component>
