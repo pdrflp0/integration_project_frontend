@@ -5,15 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f84c59e-0d12-4b9b-8322-5a89e5494758" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/deploy/package/windows/installer_integration_project.iss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../integration_project_backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../integration_project_backend/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bd.sql" beforeDir="false" afterPath="$PROJECT_DIR$/bd.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/deploy/icon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/deploy/installer_integration_project.iss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/deploy/package/windows/icon_integration_project.bmp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/deploy/package/windows/installer_integration_project.iss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/deploy/package/windows/integration_project_frontend-1.0-SNAPSHOT.ico" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +26,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../integration_project_backend" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitToolBoxStore">
@@ -81,39 +78,43 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Application.Main.executor": "Run",
-    "Application.br.eletra.backend.Main.executor": "Run",
-    "JAR Application.integration_project_frontend-1.0-SNAPSHOT.jar.executor": "Run",
-    "Maven.integration_project_backend [clean...].executor": "Run",
-    "Maven.integration_project_backend [dependency:purge-local-repository].executor": "Run",
-    "Maven.integration_project_backend [package].executor": "Run",
-    "Maven.integration_project_backend [versions:display-plugin-updates].executor": "Run",
-    "Maven.integration_project_frontend [clean...].executor": "Run",
-    "Maven.integration_project_frontend [install:install-file...].executor": "Run",
-    "Maven.integration_project_frontend [package].executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "feature/integration__project__backend__03",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/dev/git/repos/integration_project_backend",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/dev/git/repos/integration_project_frontend/src/main/java/br/eletra/Main.java",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.br.eletra.backend.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JAR Application.integration_project_frontend-1.0-SNAPSHOT.jar.executor&quot;: &quot;Run&quot;,
+    &quot;Maven.IntegrationProject [clean,package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.ProjectIntegration [clean,package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.integration_project_backend [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.integration_project_backend [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.integration_project_backend [dependency:purge-local-repository].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.integration_project_backend [package].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.integration_project_backend [versions:display-plugin-updates].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.integration_project_frontend [clean...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.integration_project_frontend [clean].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.integration_project_frontend [install:install-file...].executor&quot;: &quot;Run&quot;,
+    &quot;Maven.integration_project_frontend [package].executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;feature/integration__project__frontend__03&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/dev/git/repos/integration_project_frontend&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/dev/git/repos/integration_project_frontend/src/main/java/br/eletra/Main.java&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\dev\git\repos\integration_project_frontend\src\main\java\br\eletra\frontend\deploy\package\windows" />
@@ -131,6 +132,7 @@
       <command value="mvn versions:display-plugin-updates" />
       <command value="mvn clean package\" />
       <command value="mvn clean install" />
+      <command value="mvn clean" />
       <command value="mvn clean package" />
     </option>
   </component>
@@ -242,7 +244,10 @@
       <workItem from="1712929342771" duration="4054000" />
       <workItem from="1712974335135" duration="4146000" />
       <workItem from="1713191222931" duration="1286000" />
-      <workItem from="1713224059669" duration="2552000" />
+      <workItem from="1713224059669" duration="3152000" />
+      <workItem from="1713281262795" duration="3240000" />
+      <workItem from="1713294530311" duration="4062000" />
+      <workItem from="1713303497828" duration="102000" />
     </task>
     <servers />
   </component>
