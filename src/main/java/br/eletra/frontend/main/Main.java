@@ -1,4 +1,4 @@
-package br.eletra.frontend;
+package br.eletra.frontend.main;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -6,22 +6,19 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
-import java.io.File;
+
+import java.io.InputStream;
 import java.util.Objects;
 
 public class Main extends Application {
-
     private static final int WIDTH = 900;
     private static final int HEIGHT = 625;
 
     @Override
     public void start(Stage primaryStage) throws Exception {
-
-        String iconePath = "icon.png";
-
-        File iconFile = new File(iconePath);
-        if (iconFile.exists()) {
-            Image icon = new Image(iconFile.toURI().toString());
+        InputStream iconStream = getClass().getResourceAsStream("/icons/icon.png");
+        if (iconStream != null) {
+            Image icon = new Image(iconStream);
             primaryStage.getIcons().add(icon);
         }
 
