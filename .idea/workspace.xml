@@ -5,28 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f84c59e-0d12-4b9b-8322-5a89e5494758" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/controller/ScreenController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/563afceb-d14e-4e68-b66b-200aab7fd2af.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/563afceb-d14e-4e68-b66b-200aab7fd2af/storage_v2/_src_/database/integration_project_bd.c1a4Cg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/563afceb-d14e-4e68-b66b-200aab7fd2af/storage_v2/_src_/database/integration_project_bd.c1a4Cg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/563afceb-d14e-4e68-b66b-200aab7fd2af/storage_v2/_src_/database/integration_project_bd.c1a4Cg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/563afceb-d14e-4e68-b66b-200aab7fd2af/storage_v2/_src_/database/integration_project_bd.c1a4Cg/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c7f3fa23-cb00-40f1-8d4b-ec7fbbfbd1a2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c7f3fa23-cb00-40f1-8d4b-ec7fbbfbd1a2/storage_v2/_src_/database/integration_project_bd.c1a4Cg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c7f3fa23-cb00-40f1-8d4b-ec7fbbfbd1a2/storage_v2/_src_/database/integration_project_bd.c1a4Cg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c7f3fa23-cb00-40f1-8d4b-ec7fbbfbd1a2/storage_v2/_src_/database/integration_project_bd.c1a4Cg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c7f3fa23-cb00-40f1-8d4b-ec7fbbfbd1a2/storage_v2/_src_/database/integration_project_bd.c1a4Cg/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43bcea87-563d-4401-94e2-c8df41d20ad7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43bcea87-563d-4401-94e2-c8df41d20ad7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43bcea87-563d-4401-94e2-c8df41d20ad7/storage_v2/_src_/database/integration_project_bd.c1a4Cg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43bcea87-563d-4401-94e2-c8df41d20ad7/storage_v2/_src_/database/integration_project_bd.c1a4Cg/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bd.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/icons/icon.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/main/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/controllers/ScreenController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fxml/screen.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fxml/screen.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/main/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +25,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../integration_project_backend" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitToolBoxStore">
@@ -115,6 +98,7 @@
     "Maven.IntegrationProject [clean,package].executor": "Run",
     "Maven.ProjectIntegration [clean,install].executor": "Run",
     "Maven.ProjectIntegration [clean,package].executor": "Run",
+    "Maven.integration_project_backend [Clean...].executor": "Run",
     "Maven.integration_project_backend [clean...].executor": "Run",
     "Maven.integration_project_backend [clean].executor": "Run",
     "Maven.integration_project_backend [dependency:purge-local-repository].executor": "Run",
@@ -132,10 +116,11 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "Spring Boot.AppTest.executor": "Run",
-    "git-widget-placeholder": "feature/integration__project__frontend__04",
+    "Spring Boot.SpringApp.executor": "Run",
+    "git-widget-placeholder": "feature/integration__project__backend__04",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/dev/git/repos/integration_project_backend/src/test/java",
+    "last_opened_file_path": "C:/Users/yopai/Downloads/JetBrains-Discord-Integration-1.12.0.zip",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -177,8 +162,9 @@
       <command value="mvn versions:display-plugin-updates" />
       <command value="mvn clean package\" />
       <command value="mvn clean" />
-      <command value="mvn clean install" />
       <command value="mvn clean package" />
+      <command value="mvn Clean Install" />
+      <command value="mvn clean install" />
     </option>
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -225,9 +211,9 @@
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/integration_project_frontend-1.0-SNAPSHOT.jar" />
       <method v="2" />
     </configuration>
-    <configuration name="AppTest" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+    <configuration name="SpringApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="integration_project_backend" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="br.eletra.backend.AppTest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.eletra.backend.SpringApp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="br.eletra.backend.*" />
@@ -241,7 +227,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
-        <item itemvalue="Spring Boot.AppTest" />
+        <item itemvalue="Spring Boot.SpringApp" />
         <item itemvalue="Application.Main2" />
         <item itemvalue="Application.br.eletra.backend.Main" />
         <item itemvalue="JAR Application.integration_project_frontend-1.0-SNAPSHOT.jar" />
@@ -341,6 +327,13 @@
       <workItem from="1715784068477" duration="6035000" />
       <workItem from="1715871596569" duration="5833000" />
       <workItem from="1715877682067" duration="619000" />
+      <workItem from="1715962674360" duration="720000" />
+      <workItem from="1716156105005" duration="149000" />
+      <workItem from="1716156264216" duration="48000" />
+      <workItem from="1716215521285" duration="2813000" />
+      <workItem from="1716299330075" duration="1903000" />
+      <workItem from="1716308273281" duration="1485000" />
+      <workItem from="1716478359558" duration="739000" />
     </task>
     <servers />
   </component>

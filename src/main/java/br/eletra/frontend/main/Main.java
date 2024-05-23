@@ -28,7 +28,7 @@ public class Main extends Application {
 
         Scene scene = new Scene(root, WIDTH, HEIGHT);
         primaryStage.setScene(scene);
-        primaryStage.setTitle("Projeto de integração");
+        primaryStage.setTitle("Projeto de Integração");
         primaryStage.setMinWidth(WIDTH);
         primaryStage.setMaxWidth(WIDTH);
         primaryStage.setMinHeight(HEIGHT);
