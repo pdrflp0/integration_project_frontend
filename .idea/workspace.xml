@@ -5,7 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f84c59e-0d12-4b9b-8322-5a89e5494758" name="Changes" comment="">
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43bcea87-563d-4401-94e2-c8df41d20ad7.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43bcea87-563d-4401-94e2-c8df41d20ad7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43bcea87-563d-4401-94e2-c8df41d20ad7/storage_v2/_src_/database/integration_project_bd.c1a4Cg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/43bcea87-563d-4401-94e2-c8df41d20ad7/storage_v2/_src_/database/integration_project_bd.c1a4Cg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/main/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/main/Main.java" afterDir="false" />
+>>>>>>> remotes/origin/feature/integration_project_frontend_04
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,16 +42,9 @@
               <option name="branches">
                 <list>
                   <RecentBranch>
-                    <option name="branchName" value="feature/main" />
-                    <option name="lastUsedInstant" value="1708643278" />
+                    <option name="branchName" value="feature/integration_project_backend_04" />
+                    <option name="lastUsedInstant" value="1715876908" />
                   </RecentBranch>
-                </list>
-              </option>
-              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
-            </RecentBranchesForRepo>
-            <RecentBranchesForRepo>
-              <option name="branches">
-                <list>
                   <RecentBranch>
                     <option name="branchName" value="feature/integration_project_backend_03" />
                     <option name="lastUsedInstant" value="1709858769" />
@@ -56,10 +57,28 @@
               </option>
               <option name="repositoryRootUrl" value="file://$PROJECT_DIR$/../integration_project_backend" />
             </RecentBranchesForRepo>
+            <RecentBranchesForRepo>
+              <option name="branches">
+                <list>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/integration_project_frontend_04" />
+                    <option name="lastUsedInstant" value="1715877731" />
+                  </RecentBranch>
+                  <RecentBranch>
+                    <option name="branchName" value="feature/integration_project_frontend_03" />
+                    <option name="lastUsedInstant" value="1714494261" />
+                  </RecentBranch>
+                </list>
+              </option>
+              <option name="repositoryRootUrl" value="file://$PROJECT_DIR$" />
+            </RecentBranchesForRepo>
           </list>
         </option>
       </RecentBranches>
     </option>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/../integration_project_backend/pom.xml" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -77,10 +96,20 @@
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "Application.Main.executor": "Run",
+<<<<<<< HEAD
     "Application.br.eletra.backend.Main.executor": "Run",
     "JAR Application.integration_project_frontend-1.0-SNAPSHOT.jar.executor": "Run",
     "Maven.IntegrationProject [clean,package].executor": "Run",
     "Maven.ProjectIntegration [clean,package].executor": "Run",
+=======
+    "Application.Main2.executor": "Run",
+    "Application.br.eletra.backend.Main.executor": "Run",
+    "JAR Application.integration_project_frontend-1.0-SNAPSHOT.jar.executor": "Run",
+    "Maven.IntegrationProject [clean,package].executor": "Run",
+    "Maven.ProjectIntegration [clean,install].executor": "Run",
+    "Maven.ProjectIntegration [clean,package].executor": "Run",
+    "Maven.integration_project_backend [Clean...].executor": "Run",
+>>>>>>> remotes/origin/feature/integration_project_frontend_04
     "Maven.integration_project_backend [clean...].executor": "Run",
     "Maven.integration_project_backend [clean].executor": "Run",
     "Maven.integration_project_backend [dependency:purge-local-repository].executor": "Run",
@@ -90,6 +119,7 @@
     "Maven.integration_project_frontend [clean].executor": "Run",
     "Maven.integration_project_frontend [install:install-file...].executor": "Run",
     "Maven.integration_project_frontend [package].executor": "Run",
+<<<<<<< HEAD
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -97,6 +127,21 @@
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/dev/git/repos/pdp",
+=======
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AppTest.executor": "Run",
+    "Spring Boot.SpringApp.executor": "Run",
+    "git-widget-placeholder": "feature/integration__project__backend__04",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/yopai/Downloads/JetBrains-Discord-Integration-1.12.0.zip",
+>>>>>>> remotes/origin/feature/integration_project_frontend_04
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -108,15 +153,29 @@
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
+<<<<<<< HEAD
+=======
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
+>>>>>>> remotes/origin/feature/integration_project_frontend_04
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\dev\git\repos\integration_project_backend\src\test\java" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\dev\git\repos\integration_project_frontend\src\main\resources\icons" />
       <recent name="C:\dev\git\repos\integration_project_frontend\src\main\java\br\eletra\frontend\deploy\package\windows" />
       <recent name="C:\dev\git\repos\integration_project_frontend\src\main\java\br\eletra\frontend\deploy\package" />
       <recent name="C:\dev\git\repos\integration_project_frontend\src\main\java\br\eletra\frontend\deploy" />
       <recent name="C:\dev\git\repos\integration_project_frontend\src\main\resources\fxml" />
-      <recent name="C:\dev\git\repos\integration_project_frontend\src\main\resources\css" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="br.eletra.frontend" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -126,20 +185,39 @@
       <command value="mvn dependency:purge-local-repository" />
       <command value="mvn versions:display-plugin-updates" />
       <command value="mvn clean package\" />
-      <command value="mvn clean install" />
       <command value="mvn clean" />
       <command value="mvn clean package" />
+      <command value="mvn Clean Install" />
+      <command value="mvn clean install" />
     </option>
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+<<<<<<< HEAD
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="br.eletra.frontend.Main" />
       <module name="IntegrationProject" />
+=======
+      <option name="MAIN_CLASS_NAME" value="br.eletra.frontend.main.Main" />
+      <module name="integration_project_frontend" />
+>>>>>>> remotes/origin/feature/integration_project_frontend_04
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.eletra.frontend.*" />
+          <option name="PATTERN" value="br.eletra.frontend.main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.eletra.frontend.Main2" />
+      <module name="integration_project_frontend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.eletra.frontend.main.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -164,9 +242,24 @@
       <option name="JAR_PATH" value="$PROJECT_DIR$/target/integration_project_frontend-1.0-SNAPSHOT.jar" />
       <method v="2" />
     </configuration>
+    <configuration name="SpringApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="integration_project_backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.eletra.backend.SpringApp" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.eletra.backend.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Spring Boot.SpringApp" />
+        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.br.eletra.backend.Main" />
         <item itemvalue="JAR Application.integration_project_frontend-1.0-SNAPSHOT.jar" />
       </list>
@@ -175,7 +268,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-1.8.0_402-corretto-1.8.0_402-4caba194b151-ae57be32" />
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.15989.150" />
+        <option value="bundled-js-predefined-1d06a55b98c1-91d5c284f522-JavaScript-IU-241.15989.150" />
       </set>
     </attachedChunks>
   </component>
@@ -245,6 +339,7 @@
       <workItem from="1713281262795" duration="3240000" />
       <workItem from="1713294530311" duration="4062000" />
       <workItem from="1713303497828" duration="102000" />
+<<<<<<< HEAD
       <workItem from="1714005733553" duration="1585000" />
       <workItem from="1714009054220" duration="11000" />
       <workItem from="1714009317538" duration="48000" />
@@ -252,6 +347,34 @@
       <workItem from="1714332286729" duration="128000" />
       <workItem from="1714332424433" duration="747000" />
       <workItem from="1714349151018" duration="105000" />
+=======
+      <workItem from="1714658109491" duration="5752000" />
+      <workItem from="1714739275255" duration="124000" />
+      <workItem from="1714743215917" duration="1269000" />
+      <workItem from="1714744493415" duration="5000" />
+      <workItem from="1714745385585" duration="227000" />
+      <workItem from="1714747272938" duration="726000" />
+      <workItem from="1715006144913" duration="7124000" />
+      <workItem from="1715087942135" duration="3166000" />
+      <workItem from="1715177757400" duration="2979000" />
+      <workItem from="1715180749169" duration="3794000" />
+      <workItem from="1715205057262" duration="6838000" />
+      <workItem from="1715269734099" duration="1517000" />
+      <workItem from="1715553472125" duration="12801000" />
+      <workItem from="1715611669207" duration="5568000" />
+      <workItem from="1715700077328" duration="2660000" />
+      <workItem from="1715702925627" duration="2233000" />
+      <workItem from="1715784068477" duration="6035000" />
+      <workItem from="1715871596569" duration="5833000" />
+      <workItem from="1715877682067" duration="619000" />
+      <workItem from="1715962674360" duration="720000" />
+      <workItem from="1716156105005" duration="149000" />
+      <workItem from="1716156264216" duration="48000" />
+      <workItem from="1716215521285" duration="2813000" />
+      <workItem from="1716299330075" duration="1903000" />
+      <workItem from="1716308273281" duration="1485000" />
+      <workItem from="1716478359558" duration="739000" />
+>>>>>>> remotes/origin/feature/integration_project_frontend_04
     </task>
     <servers />
   </component>
@@ -268,6 +391,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

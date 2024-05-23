@@ -5,7 +5,7 @@
 <?import javafx.scene.shape.*?>
 <?import javafx.scene.text.*?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="875.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.eletra.frontend.controllers.ScreenController">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="575.0" prefWidth="875.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="br.eletra.frontend.controller.ScreenController">
     <Label layoutX="13.0" layoutY="7.0" prefHeight="0.0" prefWidth="132.0" text="Autor: Pedro Felipe">
         <font>
             <Font name="Berlin Sans FB" size="12.0" />
@@ -14,7 +14,7 @@
     <Rectangle arcHeight="5.0" arcWidth="5.0" height="2.0" layoutX="9.0" layoutY="25.0" stroke="BLACK" strokeType="INSIDE" width="860.0" />
     <Accordion fx:id="accordion" layoutX="12.0" layoutY="41.0">
         <panes>
-            <TitledPane prefHeight="80.0" prefWidth="85.0" text="Linhas">
+            <TitledPane fx:id="titledPaneLines" prefHeight="80.0" prefWidth="85.0" text="Linhas">
                 <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="300.0" prefWidth="200.0" visible="false">
                     <ComboBox fx:id="comboBoxLines" layoutX="150.0" layoutY="14.0" prefHeight="25.0" prefWidth="190.0" />
                     <Label layoutX="35.0" layoutY="17.0" text="Selecione uma linha:" />
