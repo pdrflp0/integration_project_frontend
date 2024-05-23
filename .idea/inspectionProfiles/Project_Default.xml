@@ -2,7 +2,38 @@
   <profile version="1.0">
     <option name="myName" value="Project Default" />
     <inspection_tool class="MavenModelInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="RawUseOfParameterizedType" enabled="false" level="WARNING" enabled_by_default="false" />
     <inspection_tool class="ReassignedToPlainText" enabled="false" level="WARNING" enabled_by_default="false" />
+<<<<<<< HEAD
     <inspection_tool class="ThrowablePrintStackTrace" enabled="false" level="WARNING" enabled_by_default="false" />
+=======
+    <inspection_tool class="UNCHECKED_WARNING" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="VulnerableCodeUsages" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="VulnerableLibrariesGlobal" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="false" level="WARNING" enabled_by_default="false">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="integration_project_backend" />
+          <option value="integration_project_backend" />
+          <option value="integration_project_backend" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="org.postgresql:postgresql:42.3.1" />
+          <option value="ch.qos.logback:logback-classic:1.2.10" />
+          <option value="ch.qos.logback:logback-core:1.2.10" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Other" />
+        </list>
+      </option>
+    </inspection_tool>
+>>>>>>> develop
   </profile>
 </component>
