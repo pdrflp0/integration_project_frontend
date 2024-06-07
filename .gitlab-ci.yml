@@ -1,0 +1,36 @@
+variables:
+  MAVEN_VERSION: "4.0.0"
+  MAVEN_HOME: C:\apache-maven-4.0.0-alpha-7
+  JAVA_HOME: C:\Program Files (x86)\Java\jdk1.8.0_181
+
+stages:
+  - clean
+  - package
+  - deploy
+
+clean:
+  tags:
+    - Shell-Maven
+  stage: clean
+  script:
+    - mvn clean
+
+package:
+  tags:
+    - Shell-Maven
+  stage: package
+  script:
+    - mvn package
+  artifacts:
+    name: exepath
+    paths: 
+      - target\jfx\native\ProjectIntegration.exe
+
+deploy:
+  tags:
+    - Shell-Maven
+  stage: deploy
+  script:
+    - copy .\target\jfx\native\ProjectIntegration.exe \\PFPC\ProjetoIntegracaoGIT
+  only:
+    - main
