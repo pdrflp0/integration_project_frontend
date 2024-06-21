@@ -19,14 +19,19 @@ public class ModelServices {
 
     private static final String BASE_URL = "http://localhost:4455/api/models";
 
-    public static List<ModelDTO> getAllModels(CategoryDTO category) {
-        Client client = ClientBuilder.newClient(new ClientConfig());
+    Client client = ClientBuilder.newClient(new ClientConfig());
+    public List<ModelDTO> getAllModels(CategoryDTO category){
         WebTarget myResource = client.target(BASE_URL + "/" + category.getCategoryName());
         Invocation.Builder builder = myResource.request(MediaType.APPLICATION_JSON);
         Response response = builder.get();
         Gson gsonMod = new Gson();
-        Type modelListType = new TypeToken<List<ModelDTO>>() {}.getType();
-        List<ModelDTO> modList = gsonMod.fromJson(response.readEntity(String.class), modelListType);
+        Type ModelListType = new TypeToken<List<ModelDTO>>() {
+        }.getType();
+        List<ModelDTO> modList = gsonMod.fromJson(response.readEntity(String.class), ModelListType);
         return modList;
+    }
+
+    public void setClient(Client client) {
+        this.client = client;
     }
 }

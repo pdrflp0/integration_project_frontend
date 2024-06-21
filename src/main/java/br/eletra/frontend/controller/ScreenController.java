@@ -18,19 +18,19 @@ import java.util.ResourceBundle;
 public class ScreenController implements Initializable {
 
     @FXML
-    private TitledPane titledPaneLines;
+    TitledPane titledPaneLines;
 
     @FXML
-    private ComboBox<LineDTO> comboBoxLines;
+    ComboBox<LineDTO> comboBoxLines;
 
     @FXML
-    private TitledPane titledPaneModels;
+    TitledPane titledPaneModels;
 
     @FXML
-    private TreeView<LineDTO> treeView;
+    TreeView<Object> treeView;
 
     @FXML
-    private Accordion accordion;
+    Accordion accordion;
 
     LineServices lineServices = new LineServices();
     CategoryServices categoryServices = new CategoryServices();
@@ -43,28 +43,29 @@ public class ScreenController implements Initializable {
         comboBoxSelect();
     }
 
-    private void comboBoxSelect() {
+    void comboBoxSelect() {
         List<LineDTO> lineList = lineServices.getAllLines();
         comboBoxLines.setItems(FXCollections.observableArrayList(lineList));
-        comboBoxLines.valueProperty().addListener(((observable, oldValue, newValue) -> openTreeView(newValue)));
+        comboBoxLines.valueProperty().addListener((observable, oldValue, newValue) -> openTreeView(newValue));
     }
 
-    private void openTreeView(LineDTO selectedLine) {
+    void openTreeView(LineDTO selectedLine) {
         titledPaneLines.setExpanded(false);
         titledPaneModels.setDisable(false);
         titledPaneModels.setExpanded(true);
 
-        List<CategoryDTO> categoryList = CategoryServices.getAllCategories(selectedLine);
-        TreeItem showTreeView = new TreeItem<>(selectedLine);
-        showTreeView.setExpanded(true);
+        List<CategoryDTO> categoryList = categoryServices.getAllCategories(selectedLine);
+        TreeItem<Object> rootItem = new TreeItem<>(new CategoryDTO(selectedLine.getLineName(), selectedLine.getId()));
+        rootItem.setExpanded(true);
 
-        categoryList.forEach((category) -> {
-            TreeItem<CategoryDTO> categoryItem = new TreeItem<>(category);
-            showTreeView.getChildren().add(categoryItem);
+        categoryList.forEach(category -> {
+            TreeItem<Object> categoryItem = new TreeItem<>(category);
+            rootItem.getChildren().add(categoryItem);
 
-            List<ModelDTO> modelList = ModelServices.getAllModels(category);
-            modelList.forEach((model) -> categoryItem.getChildren().add(new TreeItem(model)));
+            List<ModelDTO> modelList = modelServices.getAllModels(category);
+            modelList.forEach(model -> categoryItem.getChildren().add(new TreeItem<>(model)));
         });
-        treeView.setRoot(showTreeView);
+
+        treeView.setRoot(rootItem);
     }
 }

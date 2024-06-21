@@ -17,10 +17,10 @@ import javax.ws.rs.core.Response;
 public class LineServices {
 
     private static final String BASE_URL = "http://localhost:4455/api/lines";
+    Client client = ClientBuilder.newClient(new ClientConfig());
 
     public List<LineDTO> getAllLines() {
-        Client client = ClientBuilder.newClient(new ClientConfig());
-        WebTarget myResource = client.target(BASE_URL);
+        WebTarget myResource = this.client.target(BASE_URL);
         Invocation.Builder builder = myResource.request(MediaType.APPLICATION_JSON);
         Response response = builder.get();
         Gson gson = new Gson();
@@ -30,4 +30,7 @@ public class LineServices {
         return list;
     }
 
+    public void setClient(Client client) {
+        this.client = client;
+    }
 }
