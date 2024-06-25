@@ -5,22 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1f84c59e-0d12-4b9b-8322-5a89e5494758" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/discord.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43bcea87-563d-4401-94e2-c8df41d20ad7.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43bcea87-563d-4401-94e2-c8df41d20ad7/storage_v2/_src_/database/integration_project_bd.c1a4Cg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/43bcea87-563d-4401-94e2-c8df41d20ad7/storage_v2/_src_/database/integration_project_bd.c1a4Cg/schema/public.abK9xQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/controller/ScreenController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/controller/ScreenController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/dto/CategoryDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/dto/CategoryDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/dto/LineDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/dto/LineDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/dto/ModelDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/dto/ModelDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/services/CategoryServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/services/CategoryServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/services/LineServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/services/LineServices.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/services/ModelServices.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/eletra/frontend/services/ModelServices.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/eletra/frontend/controller/ScreenControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/eletra/frontend/controller/ScreenControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/eletra/frontend/services/CategoryServicesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/eletra/frontend/services/CategoryServicesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/eletra/frontend/services/LineServicesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/eletra/frontend/services/LineServicesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/br/eletra/frontend/services/ModelServicesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/br/eletra/frontend/services/ModelServicesTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,88 +89,91 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.br.eletra.backend.Main.executor&quot;: &quot;Run&quot;,
-    &quot;JAR Application.integration_project_frontend-1.0-SNAPSHOT.jar.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CategoryControllerTest.deleteCategoriesEntityTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CategoryControllerTest.deleteCategoryEntityTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CategoryControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CategoryControllerTest.getCategoryEntityListByLineNameTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CategoryControllerTest.testShouldDeleteCategoryEntity.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CategoryControllerTest.testShouldReturnCategoryEntityList.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CategoryControllerTest.updateCategoryEntityTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CategoryServicesTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CategoryServicesTest.testGetAllCategoriesAndConvertToString01.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CategoryServicesTest.testPullAllCategoriesAndConvertToString.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.CategoryServicesTest.testPullAllCategoriesAndConvertToString2.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LineControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LineServicesTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LineServicesTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.LineServicesTest.getAllLinesAndConvertToStringTest.executor&quot;: &quot;Debug&quot;,
-    &quot;JUnit.MainControllerTest.testInitializeController.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.MeterCategoryControllerTest.deleteCategoryEntityTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ModelControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ModelControllerTest.getModelEntityListByLineNameTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ModelControllerTest.getModelEntityListTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ModelControllerTest.testGetModelEntityList.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ModelServicesTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ModelServicesTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ModelServicesTest.getAllModelsAndConvertTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ModelServicesTest.getAllModelsAndConvertToStringTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ModelServicesTest.testPullAllModelsAndConvertToString.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ScreenControllerTest.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ScreenControllerTest.testOpenTreeView01.executor&quot;: &quot;Run&quot;,
-    &quot;JUnit.ScreenControllerTest.testOpenTreeView03.executor&quot;: &quot;Run&quot;,
-    &quot;Maven.IntegrationProject [clean,package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ProjectIntegration [clean,install].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ProjectIntegration [clean,package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ProjectIntegration [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.ProjectIntegration [dependency:purge-local-repository].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.integration_project_backend [Clean...].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.integration_project_backend [clean...].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.integration_project_backend [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.integration_project_backend [dependency:purge-local-repository].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.integration_project_backend [package].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.integration_project_backend [versions:display-plugin-updates].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.integration_project_frontend [clean...].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.integration_project_frontend [clean].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.integration_project_frontend [install:install-file...].executor&quot;: &quot;Run&quot;,
-    &quot;Maven.integration_project_frontend [package].executor&quot;: &quot;Run&quot;,
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;Spring Boot.AppTest.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.SpringApp.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature/integration__project__frontend__05&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/yopai/Downloads/JetBrains-Discord-Integration-1.12.0.zip&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/dev/git/repos/integration_project_frontend/src/main/java/br/eletra/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
+    "Application.Main2.executor": "Run",
+    "Application.br.eletra.backend.Main.executor": "Run",
+    "JAR Application.integration_project_frontend-1.0-SNAPSHOT.jar.executor": "Run",
+    "JUnit.CategoryControllerTest.deleteCategoriesEntityTest.executor": "Run",
+    "JUnit.CategoryControllerTest.deleteCategoryEntityTest.executor": "Run",
+    "JUnit.CategoryControllerTest.executor": "Run",
+    "JUnit.CategoryControllerTest.getCategoryEntityListByLineNameTest.executor": "Run",
+    "JUnit.CategoryControllerTest.testShouldDeleteCategoryEntity.executor": "Run",
+    "JUnit.CategoryControllerTest.testShouldDeleteExistingCategoryEntity.executor": "Run",
+    "JUnit.CategoryControllerTest.testShouldReturnCategoryEntityList.executor": "Run",
+    "JUnit.CategoryControllerTest.updateCategoryEntityTest.executor": "Run",
+    "JUnit.CategoryServicesTest.executor": "Run",
+    "JUnit.CategoryServicesTest.testGetAllCategoriesAndConvertToString01.executor": "Run",
+    "JUnit.CategoryServicesTest.testPullAllCategoriesAndConvertToString.executor": "Run",
+    "JUnit.CategoryServicesTest.testPullAllCategoriesAndConvertToString2.executor": "Run",
+    "JUnit.LineControllerTest.executor": "Run",
+    "JUnit.LineControllerTest.testDeleteLineEntityNotFound.executor": "Run",
+    "JUnit.LineServicesTest (1).executor": "Run",
+    "JUnit.LineServicesTest.executor": "Run",
+    "JUnit.LineServicesTest.getAllLinesAndConvertToStringTest.executor": "Debug",
+    "JUnit.MainControllerTest.testInitializeController.executor": "Run",
+    "JUnit.MeterCategoryControllerTest.deleteCategoryEntityTest.executor": "Run",
+    "JUnit.ModelControllerTest.executor": "Run",
+    "JUnit.ModelControllerTest.getModelEntityListByLineNameTest.executor": "Run",
+    "JUnit.ModelControllerTest.getModelEntityListTest.executor": "Run",
+    "JUnit.ModelControllerTest.testDeleteModelEntityNotFound.executor": "Run",
+    "JUnit.ModelControllerTest.testGetModelEntityList.executor": "Run",
+    "JUnit.ModelServicesTest (1).executor": "Run",
+    "JUnit.ModelServicesTest.executor": "Run",
+    "JUnit.ModelServicesTest.getAllModelsAndConvertTest.executor": "Run",
+    "JUnit.ModelServicesTest.getAllModelsAndConvertToStringTest.executor": "Run",
+    "JUnit.ModelServicesTest.testPullAllModelsAndConvertToString.executor": "Run",
+    "JUnit.ScreenControllerTest.executor": "Run",
+    "JUnit.ScreenControllerTest.testOpenTreeView01.executor": "Run",
+    "JUnit.ScreenControllerTest.testOpenTreeView03.executor": "Run",
+    "Maven.IntegrationProject [clean,package].executor": "Run",
+    "Maven.ProjectIntegration [clean,install].executor": "Run",
+    "Maven.ProjectIntegration [clean,package].executor": "Run",
+    "Maven.ProjectIntegration [clean].executor": "Run",
+    "Maven.ProjectIntegration [dependency:purge-local-repository].executor": "Run",
+    "Maven.integration_project_backend [Clean...].executor": "Run",
+    "Maven.integration_project_backend [clean...].executor": "Run",
+    "Maven.integration_project_backend [clean].executor": "Run",
+    "Maven.integration_project_backend [dependency:purge-local-repository].executor": "Run",
+    "Maven.integration_project_backend [package].executor": "Run",
+    "Maven.integration_project_backend [versions:display-plugin-updates].executor": "Run",
+    "Maven.integration_project_frontend [clean...].executor": "Run",
+    "Maven.integration_project_frontend [clean].executor": "Run",
+    "Maven.integration_project_frontend [install:install-file...].executor": "Run",
+    "Maven.integration_project_frontend [package].executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.AppTest.executor": "Run",
+    "Spring Boot.SpringApp.executor": "Run",
+    "git-widget-placeholder": "feature/integration__project__frontend__05",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/yopai/Downloads/JetBrains-Discord-Integration-1.12.0.zip",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "onboarding.tips.debug.path": "C:/dev/git/repos/integration_project_frontend/src/main/java/br/eletra/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;postgresql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\dev\git\repos\integration_project_backend\src\test\java" />
@@ -226,16 +219,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ModelControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="integration_project_backend" />
+    <configuration name="LineServicesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="integration_project_frontend" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.eletra.backend.controllers.*" />
+          <option name="PATTERN" value="br.eletra.frontend.services.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.eletra.backend.controllers" />
-      <option name="MAIN_CLASS_NAME" value="br.eletra.backend.controllers.ModelControllerTest" />
+      <option name="PACKAGE_NAME" value="br.eletra.frontend.services" />
+      <option name="MAIN_CLASS_NAME" value="br.eletra.frontend.services.LineServicesTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ModelServicesTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="integration_project_frontend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.eletra.frontend.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.eletra.frontend.services" />
+      <option name="MAIN_CLASS_NAME" value="br.eletra.frontend.services.ModelServicesTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -256,34 +264,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ScreenControllerTest.testOpenTreeView01" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="integration_project_frontend" />
+    <configuration name="SpringApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="integration_project_backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="br.eletra.backend.SpringApp" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="br.eletra.frontend.controller.*" />
+          <option name="PATTERN" value="br.eletra.backend.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="br.eletra.frontend.controller" />
-      <option name="MAIN_CLASS_NAME" value="br.eletra.frontend.controller.ScreenControllerTest" />
-      <option name="METHOD_NAME" value="testOpenTreeView01" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ScreenControllerTest.testOpenTreeView03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="integration_project_frontend" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="br.eletra.frontend.controller.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="br.eletra.frontend.controller" />
-      <option name="MAIN_CLASS_NAME" value="br.eletra.frontend.controller.ScreenControllerTest" />
-      <option name="METHOD_NAME" value="testOpenTreeView03" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -291,10 +280,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.Main" />
+        <item itemvalue="Spring Boot.SpringApp" />
         <item itemvalue="JUnit.ScreenControllerTest" />
-        <item itemvalue="JUnit.ScreenControllerTest.testOpenTreeView03" />
-        <item itemvalue="JUnit.ScreenControllerTest.testOpenTreeView01" />
-        <item itemvalue="JUnit.ModelControllerTest" />
+        <item itemvalue="JUnit.ModelServicesTest" />
+        <item itemvalue="JUnit.LineServicesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -411,7 +400,9 @@
       <workItem from="1718811851568" duration="2242000" />
       <workItem from="1718845475773" duration="98000" />
       <workItem from="1718896931157" duration="9112000" />
-      <workItem from="1718986020955" duration="357000" />
+      <workItem from="1718986020955" duration="2249000" />
+      <workItem from="1719245451094" duration="4848000" />
+      <workItem from="1719330932411" duration="5018000" />
     </task>
     <servers />
   </component>
@@ -428,6 +419,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="### Added&#10;   - Required dependencies for unit tests and tests with javaFX.&#10;   - Unit testing of screencontroller methods.&#10;   - Unit test of lines, models e categories of services.&#10;&#10;### Changed&#10;   - ScreenController adapted to pass unit tests.&#10;   - DTO categories, DTO lines and DTO models adapted for unit tests.&#10;   - Services from categories, lines and models adapted for unit testing.&#10;&#10;### Removed&#10;   -" />
+    <MESSAGE value="### Added&#10;   - Required dependencies for unit tests and tests with javaFX.&#10;   - Unit testing of screencontroller methods.&#10;   - Unit test of lines, models e categories of services.&#10;&#10;### Changed&#10;   - ScreenController adapted to pass unit tests.&#10;   - DTO categories, DTO lines and DTO models adapted for unit tests.&#10;   - Services from categories, lines and models adapted for unit testing.&#10;&#10;### Removed&#10;   -" />
+    <option name="LAST_COMMIT_MESSAGE" value="### Added&#10;   - Required dependencies for unit tests and tests with javaFX.&#10;   - Unit testing of screencontroller methods.&#10;   - Unit test of lines, models e categories of services.&#10;&#10;### Changed&#10;   - ScreenController adapted to pass unit tests.&#10;   - DTO categories, DTO lines and DTO models adapted for unit tests.&#10;   - Services from categories, lines and models adapted for unit testing.&#10;&#10;### Removed&#10;   -" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

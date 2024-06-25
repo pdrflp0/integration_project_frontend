@@ -5,6 +5,7 @@ import br.eletra.frontend.dto.ModelDTO;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.mockito.InjectMocks;
@@ -50,6 +51,15 @@ public class ModelServicesTest {
         when(client.target(anyString())).thenReturn(webTarget);
         when(webTarget.request(MediaType.APPLICATION_JSON)).thenReturn(builder);
         when(builder.get()).thenReturn(response);
+    }
+
+    @AfterEach
+    public void tearDown() {
+        service = null;
+        client = null;
+        webTarget = null;
+        builder = null;
+        response = null;
     }
 
     @Test

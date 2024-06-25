@@ -2,11 +2,12 @@ package br.eletra.frontend.services;
 
 import br.eletra.frontend.dto.LineDTO;
 import com.google.gson.Gson;
-import org.mockito.junit.jupiter.MockitoExtension;
 import com.google.gson.reflect.TypeToken;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.extension.ExtendWith;
+import org.mockito.junit.jupiter.MockitoExtension;
 
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.Invocation;
@@ -43,15 +44,23 @@ public class LineServicesTest {
         when(builder.get()).thenReturn(response);
     }
 
+    @AfterEach
+    public void tearDown() {
+        service = null;
+        client = null;
+        webTarget = null;
+        builder = null;
+        response = null;
+    }
+
     @Test
     public void testPullAllLinesAndConvertToString() {
         // Given
         String jsonResponse = "[{\"id\":1,\"name\":\"Cronos\"}, {\"id\":2,\"name\":\"Ares\"}]";
         Gson mockGson = new Gson();
         when(response.readEntity(String.class)).thenReturn(jsonResponse);
-        Type mockLineListType = new TypeToken<List<LineDTO>>() {
-        }.getType();
-        List<LineDTO> mockList = mockGson.fromJson(response.readEntity(String.class) , mockLineListType);
+        Type mockLineListType = new TypeToken<List<LineDTO>>() {}.getType();
+        List<LineDTO> mockList = mockGson.fromJson(response.readEntity(String.class), mockLineListType);
 
         // When
         List<LineDTO> result = service.getAllLines();
@@ -59,7 +68,7 @@ public class LineServicesTest {
         // Then
         assertNotNull(result);
         assertEquals(2, result.size());
-        assertEquals(result.toString() , mockList.toString());
+        assertEquals(result.toString(), mockList.toString());
         verify(client).target(eq("http://localhost:4455/api/lines"));
         verify(webTarget).request(MediaType.APPLICATION_JSON);
         verify(builder).get();

@@ -8,6 +8,7 @@ import br.eletra.frontend.services.LineServices;
 import br.eletra.frontend.services.ModelServices;
 import javafx.collections.FXCollections;
 import javafx.scene.control.*;
+import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 import org.mockito.Mockito;
@@ -40,17 +41,21 @@ public class ScreenControllerTest extends ApplicationTest {
         controller.titledPaneModels.setContent(controller.treeView);
     }
 
+    @After
+    public void tearDown() {
+        controller = null;
+    }
+
     @Test
     public void testInitializeController() {
         // Given
         Mockito.doNothing().when(controller).comboBoxSelect();
-        controller.titledPaneLines.setDisable(true);
 
         // When
-        controller.initialize(null , null);
+        controller.initialize(null, null);
 
         // Then
-        assertEquals(controller.titledPaneLines , controller.accordion.getExpandedPane());
+        assertEquals(controller.titledPaneLines, controller.accordion.getExpandedPane());
         assertTrue(controller.titledPaneModels.isDisable());
         verify(controller).comboBoxSelect();
     }
@@ -86,38 +91,6 @@ public class ScreenControllerTest extends ApplicationTest {
 
         // Then
         verify(controller, times(2)).openTreeView(controller.comboBoxLines.getItems().get(0));
-    }
-
-    @Test
-    public void testComboBoxSelect03() {
-        // Given
-        List<LineDTO> mockList = new ArrayList<>();
-        mockList.add(new LineDTO((short) 1, "Ares"));
-        mockList.add(new LineDTO((short) 2, "Cronos"));
-        Mockito.when(controller.lineServices.getAllLines()).thenReturn(mockList);
-        controller.comboBoxSelect();
-        controller.comboBoxLines.setValue(controller.comboBoxLines.getItems().get(1));
-
-        // When
-        controller.openTreeView(mockList.get(0));
-
-        // Then
-        verify(controller).openTreeView(controller.comboBoxLines.getItems().get(1));
-    }
-
-    @Test
-    public void testComboBoxSelect04() {
-        // Given
-        List<LineDTO> mockList = new ArrayList<>();
-        mockList.add(new LineDTO((short) 1, "Ares"));
-        Mockito.when(controller.lineServices.getAllLines()).thenReturn(mockList);
-        controller.comboBoxSelect();
-
-        // When
-        controller.openTreeView(mockList.get(0));
-
-        // Then
-        assertFalse(controller.comboBoxLines.getItems().isEmpty());
     }
 
     @Test

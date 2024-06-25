@@ -18,23 +18,23 @@ import java.util.ResourceBundle;
 public class ScreenController implements Initializable {
 
     @FXML
-    TitledPane titledPaneLines;
+    protected TitledPane titledPaneLines;
 
     @FXML
-    ComboBox<LineDTO> comboBoxLines;
+    protected ComboBox<LineDTO> comboBoxLines;
 
     @FXML
-    TitledPane titledPaneModels;
+    protected TitledPane titledPaneModels;
 
     @FXML
-    TreeView<Object> treeView;
+    protected TreeView<Object> treeView;
 
     @FXML
-    Accordion accordion;
+    protected Accordion accordion;
 
-    LineServices lineServices = new LineServices();
-    CategoryServices categoryServices = new CategoryServices();
-    ModelServices modelServices = new ModelServices();
+    protected LineServices lineServices = new LineServices();
+    protected CategoryServices categoryServices = new CategoryServices();
+    protected ModelServices modelServices = new ModelServices();
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
@@ -43,13 +43,13 @@ public class ScreenController implements Initializable {
         comboBoxSelect();
     }
 
-    void comboBoxSelect() {
+    protected void comboBoxSelect() {
         List<LineDTO> lineList = lineServices.getAllLines();
         comboBoxLines.setItems(FXCollections.observableArrayList(lineList));
         comboBoxLines.valueProperty().addListener((observable, oldValue, newValue) -> openTreeView(newValue));
     }
 
-    void openTreeView(LineDTO selectedLine) {
+    protected void openTreeView(LineDTO selectedLine) {
         titledPaneLines.setExpanded(false);
         titledPaneModels.setDisable(false);
         titledPaneModels.setExpanded(true);
