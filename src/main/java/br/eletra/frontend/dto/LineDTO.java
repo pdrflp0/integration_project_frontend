@@ -1,24 +1,24 @@
 package br.eletra.frontend.dto;
 
 public class LineDTO {
-    private short id;
 
+    private short id;
     private String lineName;
 
-    public LineDTO(LineDTO lineName) {
-        this.lineName = String.valueOf(lineName);
+    public LineDTO() {
     }
 
-    public String toString() {
-        return lineName;
-    }
-
-    public void setLineName(LineDTO selectedLine) {
-        this.lineName = String.valueOf(selectedLine);
+    public LineDTO(short id, String lineName) {
+        this.id = id;
+        this.lineName = lineName;
     }
 
     public String getLineName() {
-        return this.lineName;
+        return lineName;
+    }
+
+    public void setLineName(String lineName) {
+        this.lineName = lineName;
     }
 
     public short getId() {
@@ -27,5 +27,10 @@ public class LineDTO {
 
     public void setId(short id) {
         this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return lineName;
     }
 }

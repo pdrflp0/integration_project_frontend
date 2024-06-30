@@ -14,19 +14,28 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import java.lang.reflect.Type;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class CategoryServices {
 
     private static final String BASE_URL = "http://localhost:4455/api/categories";
+    private Client client = ClientBuilder.newClient(new ClientConfig());
 
-    public static List<CategoryDTO> getAllCategories(LineDTO selectedLine) {
-        Client client = ClientBuilder.newClient(new ClientConfig());
-        WebTarget myResource = client.target(BASE_URL + "/" + selectedLine.getLineName());
+    public List<CategoryDTO> getAllCategories(LineDTO selectedLine) {
+        WebTarget myResource = client.target(BASE_URL);
         Invocation.Builder builder = myResource.request(MediaType.APPLICATION_JSON);
         Response response = builder.get();
         Gson gsonCat = new Gson();
         Type categoryListType = new TypeToken<List<CategoryDTO>>() {}.getType();
         List<CategoryDTO> catList = gsonCat.fromJson(response.readEntity(String.class), categoryListType);
-        return catList;
+
+        // Filter
+        return catList.stream()
+                .filter(cat -> cat.getLine().equals(selectedLine.getLineName()))
+                .collect(Collectors.toList());
+    }
+
+    public void setClient(Client client) {
+        this.client = client;
     }
 }
